@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel Blast Studio — Mobile Games</title>
+  <style>
+    :root {
+      --bg: #070b12;
+      --card: #0e1622;
+      --border: rgba(65, 217, 164, 0.24);
+      --accent: #41d9a4;
+      --text: #e6f2ef;
+      --muted: #9eb5b0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 40px 16px 64px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 28px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      color: #ffffff;
+    }
+    p {
+      color: var(--muted);
+      margin: 0 0 24px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    a.card-link {
+      display: block;
+      padding: 14px 16px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(65, 217, 164, 0.06);
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    a.card-link:hover {
+      background: rgba(65, 217, 164, 0.14);
+    }
+    .footer {
+      margin-top: 28px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Pixel Blast Studio</h1>
+    <p>Official developer page and legal policies for our mobile arcade games on Google Play and the App Store.</p>
+    <div class="links">
+      <a class="card-link" href="./pixel-blast/privacy-policy.html">Pixel Blast — Privacy Policy</a>
+    </div>
+    <div class="footer">
+      Support &amp; Contact: <a href="mailto:vuanhphong1701@gmail.com">vuanhphong1701@gmail.com</a>
+    </div>
+  </main>
+</body>
+</html>
